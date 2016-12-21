@@ -82,7 +82,7 @@
 
 
 	// module
-	exports.push([module.id, "h1 {\n\tcolor: red;\n}", ""]);
+	exports.push([module.id, "body {\n\tbackground-color: blue;\n}\nh1 {\n\tcolor: red;\n}", ""]);
 
 	// exports
 
