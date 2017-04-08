@@ -1,5 +1,5 @@
 {
-  "name": "engine",
+  "name": "errorhandling",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,7 +9,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "body-parser": "^1.17.1",
     "express": "^4.15.2",
-    "pug": "^2.0.0-beta11"
+    "method-override": "^2.3.8"
   }
 }
