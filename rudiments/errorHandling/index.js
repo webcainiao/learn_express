@@ -12,7 +12,7 @@ app.use(methodOverride())
 app.use(logErrors);
 app.use(clientErrorHandler);
 app.use(errorHandler);
-// app.use(function(err,req,res,next){
+app.use(function(err,req,res,next){
 
 // })
 app.listen(3000);
